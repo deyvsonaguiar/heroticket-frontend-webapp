@@ -25,7 +25,7 @@ export const categories = [
     route: 'festival'
   },
   {
-    name: 'Gastronômicos',
+    name: 'Gastronomia',
     icon: '/gastronomico.png',
     route: 'gastronomic'
   },
