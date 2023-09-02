@@ -5,7 +5,7 @@ import { BannerSecondary } from "@/app/components/BannerSecondary";
 
 export default function Dashboard() {
   return(
-    <div className="container mx-auto">
+    <div className="container mx-auto p-6">
       <BannerPrimary />
       <div className="p-5 text-blue">
         <p className="text-2xl font-medium">Eventos em Destaques</p>
