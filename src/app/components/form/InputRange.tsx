@@ -1,18 +1,19 @@
 import { ForwardRefRenderFunction, forwardRef } from "react";
 
 interface IInput {
-  title: string
-  className?: string
+  title: string;
+  className?: string;
 }
 
 export const InputRange: ForwardRefRenderFunction<
-HTMLInputElement & HTMLTextAreaElement, 
-IInput
+  HTMLInputElement & HTMLTextAreaElement,
+  IInput
 > = ({ title, className, ...rest }, ref) => {
   return (
     <div className={`mb-4 text-blue font-medium ${className}`}>
       <label>{title}</label>
-      <input className={`w-full px-6 py-[5px] bg-white rounded-lg border border-teal-400`}
+      <input
+        className={`w-full px-6 py-[5px] bg-white rounded-lg border border-teal-400`}
         type="range"
         min={0}
         max={100}
@@ -20,7 +21,7 @@ IInput
         {...rest}
       />
     </div>
-  )
-}
+  );
+};
 
-export const Input = forwardRef(InputRange)
+export const Input = forwardRef(InputRange);

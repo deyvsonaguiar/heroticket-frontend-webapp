@@ -1,38 +1,44 @@
 export const categories = [
   {
-    name: 'Acadêmico',
-    icon: '/academico.png',
-    route: 'academic'
+    id: 1,
+    name: "Acadêmico",
+    icon: "/academico.png",
+    route: "academic",
   },
   {
-    name: 'Animais',
-    icon: '/animais.png',
-    route: 'animals'
+    id: 2,
+    name: "Animais",
+    icon: "/animais.png",
+    route: "animals",
   },
   {
-    name: 'Cultural',
-    icon: '/cultural.png',
-    route: 'cultural'
+    id: 3,
+    name: "Cultural",
+    icon: "/cultural.png",
+    route: "cultural",
   },
   {
-    name: 'Feiras',
-    icon: '/feira.png',
-    route: 'marker'
+    id: 4,
+    name: "Feiras",
+    icon: "/feira.png",
+    route: "marker",
   },
   {
-    name: 'Festival',
-    icon: '/festival.png',
-    route: 'festival'
+    id: 5,
+    name: "Festival",
+    icon: "/festival.png",
+    route: "festival",
   },
   {
-    name: 'Gastronomia',
-    icon: '/gastronomico.png',
-    route: 'gastronomic'
+    id: 6,
+    name: "Gastronomia",
+    icon: "/gastronomico.png",
+    route: "gastronomic",
   },
   {
-    name: 'Musical',
-    icon: '/musical.png',
-    route: 'musical'
-  }
-
-]
+    id: 7,
+    name: "Musical",
+    icon: "/musical.png",
+    route: "musical",
+  },
+];
