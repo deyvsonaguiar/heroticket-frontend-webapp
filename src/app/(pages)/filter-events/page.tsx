@@ -1,8 +1,8 @@
-import { Input } from "@/app/components/form/Input";
-import { InputRange } from "@/app/components/form//InputRange";
-import { categories } from "@/app/utils/categories";
-import { Button } from "@/app/components/form/Button";
-import { CardFilter } from "@/app/components/form/CardFilter";
+import { Input } from "../../components/form/Input";
+import { InputRange } from "../../components/form//InputRange";
+import { categories } from "../../utils/categories";
+import { Button } from "../../components/form/Button";
+import { CardFilter } from "../../components/form/CardFilter";
 
 export default function FilterEvents() {
   return (

@@ -19,7 +19,7 @@ export const Sidebar = () => {
         </div>
         <div className="flex flex-col cursor-pointer justify-center items-center mb-9">
           <MdOutlineAddBox size={30} />
-          <span>AdicionarEvento</span>
+          <span>Adicionar Evento</span>
         </div>
         <div className="flex flex-col cursor-pointer justify-center items-center mb-9">
           <FiFilter size={30} />

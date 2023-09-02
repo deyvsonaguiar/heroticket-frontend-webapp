@@ -4,11 +4,9 @@ export const CardFilter = () => {
   return (
     <>
       <div className="rounded mb-6">
-        <div className="w-full relative h-[150px] bg-black bg-opacity-25 rounded-3xl rounded-b-none shadow">
-          <div className="p-5 text-white absolute top-0">
-            <h3 className="text-5xl pb-4 text-2xl font-semibold">
-              Do Front ao Back
-            </h3>
+        <div className="w-full p-3 relative h-[150px] bg-black bg-opacity-25 rounded-3xl rounded-b-none shadow">
+          <div className="text-white absolute top-0">
+            <p className="text-2xl pb-1 font-semibold mt-2">Do Front ao Back</p>
             <div className="flex">
               <div className="mr-4 flex">
                 <svg
@@ -46,7 +44,7 @@ export const CardFilter = () => {
               </div>
             </div>
           </div>
-          <div className="p-5 text-white absolute bottom-0 flex">
+          <div className="p-1 text-white absolute bottom-0 flex">
             <div className="mr-4 flex">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -108,11 +106,9 @@ export const CardFilter = () => {
         </div>
       </div>
       <div className="rounded mb-6">
-        <div className="w-full relative h-[150px] bg-black bg-opacity-25 rounded-3xl rounded-b-none shadow">
-          <div className="p-5 text-white absolute top-0">
-            <h3 className="text-5xl pb-4 text-2xl font-semibold">
-              Do Front ao Back
-            </h3>
+        <div className="w-full p-3 relative h-[150px] bg-black bg-opacity-25 rounded-3xl rounded-b-none shadow">
+          <div className="text-white absolute top-0">
+            <p className="text-2xl pb-1 font-semibold mt-2">Do Front ao Back</p>
             <div className="flex">
               <div className="mr-4 flex">
                 <svg
@@ -150,7 +146,7 @@ export const CardFilter = () => {
               </div>
             </div>
           </div>
-          <div className="p-5 text-white absolute bottom-0 flex">
+          <div className="p-1 text-white absolute bottom-0 flex">
             <div className="mr-4 flex">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
